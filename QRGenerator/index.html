@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+
+        <script src="get.js"></script>
+    </head>
+    <body>
+        <div class="card">
+            <div class="container">
+                <div class="bigText">QR Generator</div>
+                <br />
+                <form name="getData">
+                    <label for="idata">Data: </label>
+                    <input type="text" id="idata" name="idata" required>
+                    <INPUT TYPE="button" NAME="button" Value="Click" onClick="generateQR(this.form)">
+                </form>
+            
+                <center><img id="qr" style="display:none;"/></center>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+.bigText {
+    font-size: 4vw
+}
+
+.container {
+    padding: 2vw 4vw;
+}
+
+.card {
+    margin-top: 4vw;
+    margin-right: 30vw;
+    margin-left: 30vw;
+
+    text-align: center;
+    align-items: center;
+
+    border-radius: 4vw;
+    box-shadow: 0vw 1vw 2vw 1vw rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card:hover {
+    box-shadow: 1vw 2vw 4vw 1vw rgba(0,0,0,0.2);
+  }
